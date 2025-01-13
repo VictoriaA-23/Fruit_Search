@@ -1,0 +1,78 @@
+ /*fancy title styling*/
+ #title{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    height: 10vh;
+
+  }
+
+  h1{
+    font-size: 58px;
+    font-family: agbalumo;
+  }
+
+  .letter{
+    transition: color 3000ms;
+  }
+
+  /*main styling  */
+  body {
+  background-image: linear-gradient(to right, gold, #ff4500);
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  color: black;
+  font-family: monospace;
+  margin: 0;
+  }
+  
+  input {
+   padding: 8px 5px;
+   font-size: 17px;
+   border: none;
+   transition: border 0.3s ease;
+   color: black;
+   font-family: monospace;
+  }
+  
+  .search-container {
+   position: relative;
+   width: 300px;
+  }
+
+  .search-container input {
+    background-color: rgb(250, 235, 215, 0.5);
+    /* accounts for the 5px padding */
+    width: 290px;
+  }
+
+  /* .search-container  */
+  .suggestions {
+    position: absolute;
+    width: 100%;   
+  }
+  
+  .suggestions ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgb(250, 235, 215, 0.5);
+    max-height: 200px;
+    overflow-y: hidden;
+    color: black;
+  }
+  
+  ul li {
+    padding: 10px;
+    cursor: grab;
+  }
+  ul li:hover {
+    background-color: azure;
+  }
+
+ 
